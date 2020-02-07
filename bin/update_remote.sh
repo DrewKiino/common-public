@@ -1,11 +1,9 @@
 #!/bin/bash
 
+# make sure we set the working directory into this one
 cd "$(dirname "$0")"
 
-# echo $DIR
-# echo $BASE_DIR
-# echo $TARGET
-
+# then we can start running git commands
 git add .
 git commit -m "update"
 git push
