@@ -4,6 +4,6 @@
 cd "$(dirname "$0")"
 
 # then we can start running git commands
-git add .
-git commit -m "update"
-git push
+git add . && \
+  git commit -m "update" && \
+  git push 
