@@ -13,4 +13,5 @@ echo $(pwd)
 git status && \
   git add . && \
   git commit -m "update" && \
-  git push 
+  git push && \
+  git status
