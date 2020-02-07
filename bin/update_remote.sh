@@ -10,8 +10,7 @@ TARGET="$BASE_DIR/src"
 echo $(pwd)
 
 # then we can start running git commands
-git status && \
-  git add "." && \
+git add --all && \
   git commit -m "update" && \
   git push && \
   git status
