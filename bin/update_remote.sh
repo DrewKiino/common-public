@@ -11,7 +11,7 @@ echo $(pwd)
 
 # then we can start running git commands
 git status && \
-  git add . && \
+  git add "." && \
   git commit -m "update" && \
   git push && \
   git status
